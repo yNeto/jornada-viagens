@@ -1,0 +1,30 @@
+.cards{
+    color: var(--text-secondary-color);
+    background-color: #000000;
+    width: 312px;
+    height: 288px;
+    padding: 24px 16px;
+    box-sizing: border-box;
+    border-radius: 16px;
+    text-align: center;
+}
+
+.cards header{
+    display: block;
+    padding: 0;
+    position: static;
+}
+
+.cards header p{
+    font-size: 20px;
+    font-weight: var(--text-weight);
+}
+.cards header h3{
+    font-size: 40px;
+    font-weight: var(--title-weight);
+    margin: 8px 0 24px 0;
+}
+.cards header h4{
+    font-size: 32px;
+    font-weight: var(--title-weight);
+}
