@@ -29,8 +29,6 @@
 .card h3 {
   margin: 0;
   margin-top: 24px;
-  font-size: 28px;
-  font-weight: var(--title-weight);
   color: var(--text-primary-color);
 }
 
