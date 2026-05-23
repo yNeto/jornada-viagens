@@ -75,6 +75,10 @@ body {
   .section-title h2 {
     font-size: 32px;
   }
+  section{
+  width: 648px;
+  margin: 0 auto;
+  }
 }
 
 .content-title {
@@ -94,6 +98,10 @@ body {
   }
   .button:hover {
     background-color: var(--primary-color);
+  }
+  section{
+  width: 860px;
+  margin: 0 auto;
   }
 }
 
