@@ -44,16 +44,12 @@
 
 .item h4 {
   margin: 24px 0 24px;
-  font-weight: var(--title-weight);
   text-align: left;
-  font-size: 28px;
 }
 
 .item p {
   margin-bottom: 24px;
-  font-weight: var(--text-weight);
   text-align: left;
-  font-size: 20px;
 }
 
 @media screen and (min-width: 768px) {

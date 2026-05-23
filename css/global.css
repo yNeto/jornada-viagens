@@ -37,21 +37,12 @@ button {
   box-sizing: border-box;
 }
 
-body{
+body {
   font-family: "Montserrat";
   color: var(--text-primary-color);
 }
 
-section{
-  width: 312px;
-  margin: 0 auto;
-}
-
-section.hero{
-  width: 100%;
-}
-
-.section-title h2{
+.section-title h2 {
   font-size: 28px;
   font-weight: var(--title-weight);
   margin: 0;
@@ -59,7 +50,7 @@ section.hero{
   margin-top: 88px;
 }
 
-.section-title hr{
+.section-title hr {
   width: 180px;
   height: 4px;
   background-color: var(--secondary-color);
@@ -67,7 +58,7 @@ section.hero{
   margin: 16px auto 32px;
 }
 
-.button{
+.button {
   width: 280px;
   height: 64px;
   color: var(--text-secondary-color);
@@ -81,7 +72,7 @@ section.hero{
 }
 
 @media screen and (min-width: 768px) {
-  .section-title h2{
+  .section-title h2 {
     font-size: 32px;
   }
   section{
@@ -90,11 +81,22 @@ section.hero{
   }
 }
 
+.content-title {
+  font-weight: var(--title-weight);
+  font-size: 28px;
+}
+
+.content-text {
+  font-weight: var(--text-weight);
+  font-size: 20px;
+  line-height: 28px;
+}
+
 @media screen and (min-width: 1024px) {
-  .section-title h2{
+  .section-title h2 {
     font-size: 32px;
   }
-  .button:hover{
+  .button:hover {
     background-color: var(--primary-color);
   }
   section{
@@ -104,14 +106,10 @@ section.hero{
 }
 
 @media screen and (min-width: 1440px) {
-  .section-title h2{
+  .section-title h2 {
     font-size: 32px;
   }
-  .button:hover{
+  .button:hover {
     background-color: var(--primary-color);
-  }
-  section{
-  width: 1200px;
-  margin: 0 auto;
   }
 }
