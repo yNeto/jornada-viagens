@@ -62,7 +62,6 @@
     width: 1200px;
   }
   .testimonial-container {
-    display: flex;
     flex-direction: row;
     justify-content: center;
   }
