@@ -37,7 +37,7 @@ button {
   box-sizing: border-box;
 }
 
-section.hero{
+section.hero {
   width: 100%;
 }
 
@@ -79,9 +79,9 @@ body {
   .section-title h2 {
     font-size: 32px;
   }
-  section{
-  width: 648px;
-  margin: 0 auto;
+  section {
+    width: 648px;
+    margin: 0 auto;
   }
 }
 
@@ -103,9 +103,9 @@ body {
   .button:hover {
     background-color: var(--primary-color);
   }
-  section{
-  width: 860px;
-  margin: 0 auto;
+  section {
+    width: 860px;
+    margin: 0 auto;
   }
 }
 
@@ -116,8 +116,8 @@ body {
   .button:hover {
     background-color: var(--primary-color);
   }
-  section{
-  width: 1197px;
-  margin: 0 auto;
+  section {
+    width: 1197px;
+    margin: 0 auto;
   }
 }
