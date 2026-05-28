@@ -37,6 +37,10 @@ button {
   box-sizing: border-box;
 }
 
+section.hero{
+  width: 100%;
+}
+
 body {
   font-family: "Montserrat";
   color: var(--text-primary-color);
@@ -111,5 +115,9 @@ body {
   }
   .button:hover {
     background-color: var(--primary-color);
+  }
+  section{
+  width: 1197px;
+  margin: 0 auto;
   }
 }
