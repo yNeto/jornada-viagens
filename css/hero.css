@@ -1,11 +1,20 @@
 .hero-img {
   width: 100%;
   height: 400px;
+}
+
+.hero-img {
   background: url(../img/hero-mobile.png) no-repeat;
   background-size: cover;
 }
 
-.hero h2{
+.hero-img.hero-packet {
+  height: 480px;
+  background: url(../img/hero-packet-mobile.png) no-repeat;
+  background-size: cover;
+}
+
+.hero h2 {
   margin: 0px;
   padding: 88px 24px 0;
   font-weight: var(--text-weight);
@@ -14,15 +23,58 @@
   line-height: 1.5;
 }
 
+.hero-img.hero-packet h2 {
+  padding: 65px 24px 0;
+  font-size: 48px;
+  text-align: left;
+  font-weight: var(--title-weight);
+  color: var(--text-secondary-color);
+  line-height: auto;
+}
+
+.hero-img.hero-packet hr {
+  width: 180px;
+  height: 4px;
+  background-color: var(--secondary-color);
+  border: none;
+  margin: 16px 24px 0;
+}
+
+.hero-img.hero-packet h3 {
+  margin: 0 24px 0 24px;
+  padding-top: 32px;
+  color: var(--text-secondary-color);
+  font-weight: var(--text-weight);
+  text-align: left;
+  font-size: 20px;
+  line-height: 32px;
+}
+
 @media screen and (min-width: 768px) {
   .hero-img {
     height: 620px;
     background: url(../img/hero-tablet.png) no-repeat;
     background-size: cover;
   }
-  .hero h2{
+  .hero h2 {
     padding: 88px 60px;
     font-size: 32px;
+  }
+  .hero-img.hero-packet {
+    height: 620px;
+    background: url(../img/hero-packet-tablet.png) no-repeat;
+    background-size: cover;
+  }
+  .hero-img.hero-packet hr {
+    margin: 16px 0 0 120px;
+  }
+  .hero-img.hero-packet h2 {
+    padding: 210px 0 0 120px;
+  }
+  .hero-img.hero-packet h3 {
+    margin: 0 69px 0 120px;
+    font-size: 32px;
+    line-height: 48px;
   }
 }
 
@@ -32,14 +84,28 @@
     background: url(../img/hero-desktop.jpg) no-repeat;
     background-size: cover;
   }
-  .hero h2{
+  .hero h2 {
     padding: 104px 120px;
     font-size: 32px;
+  }
+  .hero-img.hero-packet {
+    height: 620px;
+    background: url(../img/hero-packet-desktop.png) no-repeat;
+    background-size: cover;
+  }
+  .hero-img.hero-packet h3 {
+    margin: 0 350px 0 120px;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .hero-img.hero-packet h3 {
+    margin: 0 751px 0 120px;
   }
 }
 
 @media screen and (min-width: 1920px) {
-  .hero h2{
+  .hero h2 {
     padding: 104px 160px;
   }
 }
