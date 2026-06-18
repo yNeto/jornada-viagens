@@ -5,6 +5,10 @@
   background-size: cover;
   margin-top: 88px;
 }
+.banner-image.banner-packet {
+  background: url(../img/banner-mobile-packet.png) no-repeat;
+  background-size: cover;
+}
 
 @media screen and (min-width: 768px) {
   section.banner {
@@ -13,6 +17,11 @@
   .banner-image {
     background: url(../img/banner-tablet.png) no-repeat;
     background-size: cover;
+  }
+  .banner-image.banner-packet {
+    background: url(../img/banner-tablet-packet.png) no-repeat;
+    background-size: cover;
+    background-position: center;
   }
 }
 
@@ -23,5 +32,10 @@
   .banner-image {
     background: url(../img/banner-desktop.png) no-repeat;
     background-size: cover;
+  }
+  .banner-image.banner-packet {
+    background: url(../img/banner-desktop-packet.png) no-repeat;
+    background-size: cover;
+    background-position: center;
   }
 }
